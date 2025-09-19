@@ -18,7 +18,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:rw
       - /etc/passwd:/etc/passwd:ro
       - .:/app:rw
-    privileged: true
+    privileged: false
     user: root
     cap_add:
       - ALL
