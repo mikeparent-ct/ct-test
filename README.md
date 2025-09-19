@@ -31,7 +31,7 @@ gcloud services enable secretmanager.googleapis.com
 gcloud services enable artifactregistry.googleapis.com
 gcloud services enable geminicloudassist.googleapis.com
 gcloud services enable cloudaicompanion.googleapis.com
-
+ 
 ```
 make kubernetes.init
 make kubernetes.plan
